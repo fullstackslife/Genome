@@ -1,4 +1,15 @@
-"""Embeddings API endpoints."""
+"""Embeddings API endpoints.
+
+PHASE 1 SCOPE:
+- POST /embeddings/generate - Run canonical pipeline
+- GET /embeddings - Retrieve embeddings
+- GET /embeddings/visualize - Generate projection coordinates
+
+FUTURE PHASES (not implemented):
+- POST /states - Cell state inference (Phase 2)
+- GET /transitions - State transition probabilities (Phase 3)
+- POST /compare - State comparison (Phase 2)
+"""
 
 import logging
 from typing import List, Optional

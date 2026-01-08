@@ -1,4 +1,18 @@
-"""Simple autoencoder model for RNA expression embeddings."""
+"""Simple autoencoder model for RNA expression embeddings.
+
+PHASE 1 SCOPE:
+- Basic autoencoder architecture (encoder-decoder)
+- Unsupervised training (reconstruction loss)
+- Latent embedding generation
+
+INTENTIONALLY SIMPLE:
+- No attention mechanisms
+- No transformer architecture
+- No advanced regularization
+- Focus on correctness and clarity over SOTA performance
+
+Future phases may introduce more sophisticated architectures.
+"""
 
 import torch
 import torch.nn as nn

@@ -1,4 +1,16 @@
-"""FastAPI application entry point."""
+"""FastAPI application entry point.
+
+PHASE 1 SCOPE:
+- Basic API endpoints for ingestion and embeddings
+- No authentication (Phase 1 only)
+- CORS enabled for development
+
+FUTURE PHASES:
+- Authentication/authorization
+- Rate limiting
+- Advanced error handling
+- WebSocket support for real-time updates
+"""
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware

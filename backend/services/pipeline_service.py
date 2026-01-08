@@ -1,4 +1,19 @@
-"""Canonical Phase 1 pipeline: ingestion_id → load → normalize → embed → persist."""
+"""Canonical Phase 1 pipeline: ingestion_id → load → normalize → embed → persist.
+
+PHASE 1 SCOPE:
+- Single execution path with no branching
+- Deterministic normalization
+- Embedding generation only (no state inference)
+- Metadata persistence
+
+INTENTIONALLY UNFINISHED (future phases):
+- Batch correction (normalization step)
+- Cell state clustering (post-embedding)
+- State transition modeling
+- Advanced error recovery
+
+See docs/phase1_acceptance.md for completion criteria.
+"""
 
 import logging
 from pathlib import Path

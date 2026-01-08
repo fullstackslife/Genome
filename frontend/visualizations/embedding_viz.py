@@ -1,4 +1,18 @@
-"""Embedding visualization utilities."""
+"""Embedding visualization utilities.
+
+PHASE 1 SCOPE:
+- UMAP and PCA projections
+- 2D/3D coordinate generation
+- Neutral color palettes (no health indicators)
+
+INTENTIONALLY UNFINISHED:
+- Interactive web visualization → Future phase
+- Real-time updates → Future phase
+- Custom color schemes → Future phase
+- State-based coloring → Phase 2 (when states exist)
+
+Current output: CSV files with projection coordinates for external visualization.
+"""
 
 import logging
 from typing import Optional

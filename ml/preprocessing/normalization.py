@@ -71,6 +71,8 @@ class NormalizationPipeline:
             logger.info(f"Applied log normalization (base={self.config.log_base})")
 
         # Step 2: Optional batch correction (placeholder)
+        # PHASE 1 STATUS: Intentionally unfinished.
+        # Batch correction will be implemented in a future phase.
         if self.config.apply_batch_correction:
             logger.warning("Batch correction requested but not implemented in Phase 1")
             # Placeholder for future implementation
