@@ -1,0 +1,1 @@
+"""Foundation embedding models package."""
